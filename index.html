@@ -1,12 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Title of the document</title>
-</head>
+	<head>
+		<title> LOGIN </title>
+		MyChat <br>
 
-<body>
-Content of the document......
-</body>
+	</head>
+	<body>
+		<input type = "text" id= "us" /> <br>
+		<input type = "password" id = "ps" />
+		<input type = "button" onclick = "login()" id = "bt" />
 
-</html>
+	 <script>
+                function login(){
+                var username = document.getElementById("us");
+                var pas = document.getElementById("ps");
+                var bot = document.getElementById("bt");
+        if(username.value == pas.value){
+       alert("Login")
+};
+};      
+	
+	 </script>
+	</body>
